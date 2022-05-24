@@ -1,6 +1,6 @@
 # wordlepy
 Wordle based game made in Python
-MUST TYPE GUESS IN CAPITAL LETTERS
+## MUST TYPE GUESS IN CAPITAL LETTERS
 
 ```
 python3 play_wordle.py
