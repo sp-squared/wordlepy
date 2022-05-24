@@ -8,7 +8,7 @@ import random
 def main():
     word_set = load_word_set("data/wordle_words.txt")
     secret = random.choice(list(word_set))
-    wordle = Wordle("LOBBY")
+    wordle = Wordle(secret)
 
     while wordle.can_attempt:
         x = input("\nType your guess: ")
